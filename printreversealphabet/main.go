@@ -8,5 +8,5 @@ func main() {
 
 		z01.PrintRune(i)
 	}
-	z01.PrintRune('\n')
+	z01.PrintRune(10)
 }
