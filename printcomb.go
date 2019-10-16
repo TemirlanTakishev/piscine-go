@@ -1,4 +1,4 @@
-package main
+package printcomb
 
 import "github.com/01-edu/z01"
 
@@ -16,8 +16,4 @@ func PrintComb() {
 			}
 		}
 	}
-}
-
-func main() {
-	PrintComb()
 }
