@@ -4,9 +4,9 @@ import "github.com/01-edu/z01"
 
 func PrintStr(str string) {
 
-	   for _, TUCK := range str {
-		   z01.PrintRune(TUCK)
+	for _, TUCK := range str {
+		z01.PrintRune(TUCK)
 
-		}
-		
+	}
+
 }
