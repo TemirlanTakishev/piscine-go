@@ -1,6 +1,6 @@
 package piscine
 
- func StrLen(str string) int {
+func StrLen(str string) int {
 
 	a := 0
 	for _, i := range str {
@@ -8,5 +8,5 @@ package piscine
 			a++
 		}
 	}
-    return a 
+	return a
 }
