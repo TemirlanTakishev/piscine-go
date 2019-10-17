@@ -1,6 +1,5 @@
 package piscine
 
-// BasicAtoi simulates the behaviour of the atoi function in Go.
 func BasicAtoi(s string) int {
 	copy := []rune(s)
 	result := 0
