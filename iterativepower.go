@@ -6,11 +6,11 @@ func IterativePower(nb int, power int) int {
 	} else if power == 0 {
 		return 1
 	}
-
+	c := power
 	b := 1
 	for i := 1; i <= nb; i++ {
 
-		b = nb * i * i
+		b = b * c
 
 	}
 	return b

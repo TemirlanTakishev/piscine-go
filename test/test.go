@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	arg1 := -8
-	arg2 := 1
+	arg1 := 2
+	arg2 := 4
 	fmt.Println(piscine.IterativePower(arg1, arg2))
 }
