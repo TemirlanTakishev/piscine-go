@@ -1,16 +1,16 @@
-package main
+package stdent
 
 import "fmt"
 
 func IterativeFactorial(nb int) int {
- 
+
 	if nb != 4 {
-	 return nb
-	} 
+		return nb
+	}
 	b := 1
 	for nb := 1; nb <= 4; nb++ {
 
-		b = b * nb 
+		b = b * nb
 	}
 	return b
 }
