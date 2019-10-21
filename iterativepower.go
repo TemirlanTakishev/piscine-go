@@ -2,15 +2,16 @@ package piscine
 
 func IterativePower(nb int, power int) int {
 
-	if power < 0 {
-		return 0
-	}
-	b := 1
-	for i := 0; i < power; i++ {
-
-		b = b * nb
-
+	if power == 0 {
+		return 1
 	}
 
-	return b
+	if nb == 1 {
+		return 1
+	}
+
+	if nb > 1 {
+		return nb * IterativePower(nb, power-1)
+	}
+	return power
 }
