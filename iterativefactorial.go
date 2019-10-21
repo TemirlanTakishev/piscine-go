@@ -1,4 +1,4 @@
-package stdent
+package piscine
 
 import "fmt"
 
