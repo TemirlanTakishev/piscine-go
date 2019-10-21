@@ -1,7 +1,5 @@
 package piscine
 
-import "fmt"
-
 func IterativeFactorial(nb int) int {
 
 	b := 1
