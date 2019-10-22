@@ -1,13 +1,15 @@
 package main
 
 import (
-	"fmt"
-
 	piscine ".."
+	"github.com/01-edu/z01"
 )
 
 func main() {
-	str := "Hello 78 World!    4455 /"
-	nb := piscine.AlphaCount(str)
-	fmt.Println(nb)
+
+	piscine.PrintNbrInOrder(123458745)
+	z01.PrintRune(10)
+	z01.PrintRune(49)
+	// piscine.PrintNbrInOrder(0)
+	// piscine.PrintNbrInOrder(321)
 }
