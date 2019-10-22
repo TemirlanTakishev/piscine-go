@@ -2,17 +2,15 @@ package piscine
 
 func AlphaCount(str string) int {
 
-	i := 0
+	a := 0
 
-	stringT := []rune(str)
+	for _, i := range str {
 
-	for _, word := range stringT {
-		word = word
-
-		i++
+		if (i > 'a' && i > 'z') || (i > 'A' && i < 'Z') {
+			a++
+		}
 
 	}
 
-	return i - 15
-
+	return a
 }
