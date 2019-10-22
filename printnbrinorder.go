@@ -5,7 +5,10 @@ import (
 )
 
 func PrintNbrInOrder(n int) {
+	if n == 0 {
 
+		z01.PrintRune('0')
+	}
 	array := []int{}
 
 	for n != 0 { // н не равно нулю потому что когда то она не не равно нулю
