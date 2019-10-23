@@ -17,7 +17,9 @@ func Index(s string, toFind string) int {
 	if len1 < len2 {
 		return -1
 	}
-
+	if len1 <= 0 || len2 <= 0 {
+		return -1
+	}
 	for i1, letter1 := range str1 {
 		if str2[0] == letter1 {
 			index = i1
