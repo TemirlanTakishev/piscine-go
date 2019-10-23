@@ -1,13 +1,13 @@
 package main
 
 import (
+	"fmt"
+
 	piscine ".."
-	"github.com/01-edu/z01"
 )
 
 func main() {
-	z01.PrintRune(piscine.LastRune("Hello!"))
-	z01.PrintRune(piscine.LastRune("Salut!"))
-	z01.PrintRune(piscine.LastRune("Ola!"))
-	z01.PrintRune('\n')
+	fmt.Println(piscine.Index("Hello!", "Hello!rus"))
+	fmt.Println(piscine.Index("Salut!", "alu"))
+	fmt.Println(piscine.Index("Ola!", "hOl"))
 }
