@@ -4,11 +4,11 @@ func Capitalize(s string) string {
 
 	sring := []rune(s) // создаем массив рун cast
 
-	len := 0 // вычисляем длину страки
+	len := 0 // вычисляем длину строки
 	for range sring {
 		len++
 	}
-	for i, bykva := range sring { // дайот доступ к каждой букве и диджителу
+	for i, bykva := range sring { // даёт доступ к каждой букве и диджителу
 
 		if i == 0 || !isAlphaNum(sring[i-1]) { // проверяем если первая буква в слове
 
