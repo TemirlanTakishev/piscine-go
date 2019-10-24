@@ -12,9 +12,9 @@ func IsUpper(str string) bool {
 
 		if x[i] >= 'A' && x[i] <= 'Z' {
 		} else {
-			return true
+			return false
 		}
 	}
 
-	return false
+	return true
 }
