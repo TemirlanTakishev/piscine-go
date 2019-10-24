@@ -12,9 +12,9 @@ func IsPrintable(str string) bool {
 
 		if p[i] >= 'A' && p[i] <= 'Z' {
 		} else {
-			return true
+			return false
 		}
 	}
 
-	return false
+	return true
 }
