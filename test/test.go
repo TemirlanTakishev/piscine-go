@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
-	fmt.Println(piscine.Concat("Hello!", " How are you?"))
-
+	arg1 := 4
+	arg2 := 3
+	fmt.Println(piscine.IterativePower(arg1, arg2))
 }
