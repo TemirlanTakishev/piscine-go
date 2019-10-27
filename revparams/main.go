@@ -1,17 +1,27 @@
-package main 
+package main
 
 import (
 	"os"
+
+	"github.com/01-edu/z01"
 )
 
-func main(){
-	per := []rune(os.Args[1:]) // создаем масив рун из библиотеки os Args
+func main() {
+	args := os.Args[1:]
 
-	for i :range per {
-		for i,  := range per [i]{
-			
-			z01.PrintRune()
+	len := 0
+	for range args {
+		len++
+	}
+
+	for i := len - 1; i >= 0; i-- {
+
+		param := args[i]
+
+		for _, c := range param {
+			z01.PrintRune(c)
 		}
-	} 
+		z01.PrintRune(10)
+	}
 
 }
