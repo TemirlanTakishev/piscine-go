@@ -16,3 +16,4 @@ func ConcatParams(args []string) string {
 	}
 
 	return result
+}
