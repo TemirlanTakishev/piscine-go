@@ -7,7 +7,7 @@ func PointOne(n *int) {
 
 }
 func main() {
-	n := 0
+	n := 5
 	PointOne(&n)
 	fmt.Println(n)
 }
