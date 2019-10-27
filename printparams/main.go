@@ -7,11 +7,13 @@ import (
 )
 
 func main() {
-	arguments := os.Args[1:]   // arguments - massiv и берем с него аргументы/ то есть берем 1 и последующие аргументы
-	for i := range arguments { //мы перебираем слова из массива , берем индексы
-		for _, letter := range arguments[i] { // i = аргумент, и перебираем его в буквы letter -словао
-			z01.PrintRune(letter)
+	rik := os.Args[1:]        // мы не создаем массив т,к если в задании пишут аргументы
+	for _, arg := range rik { // нам не нужны индексы мы проходимся по буквам для того чтобы пройтись по словам
+		for _, letter := range arg { // вывести слова по символьно
+
+			z01.PrintRune(letter) // печатай нам символы
 		}
 		z01.PrintRune(10)
 	}
+
 }
